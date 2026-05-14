@@ -20,7 +20,7 @@ experimental:
   plugins:
     timestamp-injector:
       moduleName: github.com/rhys-uk/TraefikXQueueStartHeader
-      version: v1.0.0
+      version: v0.9.0
 ```
 
 ## Dynamic Configuration
