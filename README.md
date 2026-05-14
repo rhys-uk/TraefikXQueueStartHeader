@@ -2,6 +2,8 @@
 # Fork of https://plugins.traefik.io/plugins/68b947762c6511271c0f0f45/timestamp-injector
 #   - https://github.com/helpshift/timestamp-injector#
 
+**N.B. Untested at this time (May 2026)**
+
 A Traefik middleware plugin that adds a timestamp header to **HTTP requests** before they reach the backend services. 
 
 It injects the current Unix time in **milliseconds** (e.g., `1715691234567`).
@@ -13,13 +15,13 @@ NOTE: The default header name is `X-Queue-Start`, but it is fully configurable.
 
 ## Static Configuration
 
-Enable experimental plugins and specify this plugin (traefik pulls from github, the path below does not currently exists but is present as an example):
+Enable experimental plugins and specify this plugin
 
 ```yaml
 experimental:
   plugins:
     timestamp-injector:
-      moduleName: github.com/onthebeach/platforms/traefik/plugins/xqueuestart-timestamp-injector
+      moduleName: github.com/rhys-uk/TraefikXQueueStartHeader
       version: v1.0.0
 ```
 
