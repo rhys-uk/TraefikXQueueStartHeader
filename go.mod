@@ -1,3 +1,3 @@
-module github.com/helpshift/timestamp-injector
+module github.com/rhys-uk/TraefikXQueueStartHeader
 
 go 1.22
