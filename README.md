@@ -13,7 +13,7 @@ NOTE: The default header name is `X-Queue-Start`, but it is fully configurable.
 
 ## Static Configuration
 
-Enable experimental plugins and specify this plugin (traefik pulls from github, the path below does not currently exists but is present as an example):
+Enable experimental plugins and specify this plugin:
 
 ```yaml
 experimental:
