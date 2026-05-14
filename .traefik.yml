@@ -1,0 +1,8 @@
+displayName: Traefik X-Queue-Start Header
+type: middleware
+import: github.com/rhys-uk/TraefikXQueueStartHeader
+
+# Define the configuration fields for the UI/Catalog
+summary: Injects a timestamp header for request queue tracking.
+testData:
+  HeaderName: "X-Queue-Start"
